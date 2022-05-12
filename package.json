@@ -2,8 +2,7 @@
   "name": "event",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "repository": "https://github.com/CuongNguyen291201/Event-API.git",
-  "author": "Cuong Nguyen <cuongnguyen291201@gmail.com>",
+  "author": "Le Van Quang <levanquang3112@gmail.com>",
   "license": "MIT",
   "scripts": {
     "start": "node dist/index.js",
@@ -11,14 +10,17 @@
     "build": "tsc"
   },
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
     "cors": "^2.8.5",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.0.8",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
     "@types/cookie-parser": "^1.4.2",
     "@types/cors": "^2.8.12",
     "@types/dotenv": "^8.2.0",
